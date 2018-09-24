@@ -77,7 +77,7 @@ MainActivity.java具体代码：
 package com.test.sdktest;
 
 import com.unity3d.player.UnityPlayer;
-importcom.unity3d.player.UnityPlayerActivity;
+import com.unity3d.player.UnityPlayerActivity;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -112,7 +112,7 @@ public class MainActivity extends UnityPlayerActivity {
 
  ![img](./pic/image017.png)
 
-新建一个Unity工程，在Assets目录下新建Plugins/Android路径，在这目录下引入Anroid工程目录下的res目录、AndroidManifest.xml文件、还有刚生成的jar包。
+新建一个Unity工程，在Assets目录下新建Plugins/Android路径，在这目录下引入Android工程目录下的res目录、AndroidManifest.xml文件、还有刚生成的jar包。
 
 在场景中拉个大按钮Button，由于用UGUI，Button上级有个Canvas，就给它加一个脚本，称为AndroidCommunicator，在里面加入一些与Android简单通信的接口。
 
@@ -132,7 +132,7 @@ public class AndroidCommunicator :MonoBehaviour
 
     void Start()
     {
-       _AndroidCls = newAndroidJavaClass("com.unity3d.player.UnityPlayer");
+       _AndroidCls = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
        _AndroidObj =_AndroidCls.GetStatic<AndroidJavaObject>("currentActivity");
     }
 
