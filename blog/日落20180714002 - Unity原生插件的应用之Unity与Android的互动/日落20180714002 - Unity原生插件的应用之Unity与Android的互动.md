@@ -1,5 +1,5 @@
 系统：Windows 8
-引擎：Unity 2017.2.1f1(64bit)
+引擎：Unity 2017.2.1f1
 
 Android环境：
 Android SDK：android-sdk_r24.4.1-windows

@@ -222,17 +222,7 @@
 >
 > （9）成夹角的两向量(a和b)，其一向量(a)的某个分量(a1)若能平行于另一向量(b)，则此分量(a1)是另一向量(b)的投影。
 
-## 8.Unity打包之闪屏界面
-> ### 参考：
-> Android启动页面（闪屏页面）的实现
->
-> https://blog.csdn.net/PlainWaterh/article/details/78184847
->
-> 安卓闪屏界面作用及总结
->
-> https://blog.csdn.net/twc18638942853/article/details/72770267
-
-## 9.Unity打包之Android热更与强更
+## 8.Unity打包之Android热更与强更
 > ### 参考：
 > Android热更新技术的研究与实现(一)
 >
