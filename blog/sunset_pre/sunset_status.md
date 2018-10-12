@@ -261,3 +261,9 @@
 > https://www.cnblogs.com/engine1984/p/4146621.html
 >
 > }
+
+### 《日落20180724001 - UGUI组件应用之Image调用TexturePacker图集》
+> 补充：
+> TexturePacker的Sprites选项卡的Trim mode设置，若选择Crop则会被剪裁部分，而选择None则不进行剪裁。 
+> 因此当图集用于序列帧动画时，应该选择None，不剪裁，否则将会出现不正确的缩放效果。
+
