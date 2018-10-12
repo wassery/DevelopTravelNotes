@@ -4,7 +4,9 @@
 
 （1）首先设置布局如下
 
- ![1](.\pic\1.png)
+![1](.\pic\1.png)
+
+
 
 （2）然后是TouchController.cs的脚本内容如下
 
@@ -141,11 +143,74 @@ public class TouchController : MonoBehaviour {
 
 可以选择用Easy Touch 4写法，还是Easy Touch 5写法。测试一下，用Easy Touch 4的注册方式比较流畅，Easy Touch 5用法写在Update里，估计是受到频率影响。
 
+
+
 （3）效果如下
 
- ![1](.\pic\2.png)
+ ![2](.\pic\2.png)
 
-总结，UI上有个Raycast Target的勾选要注意，会挡掉触摸事件。
+
+
+（4）如果想改成移动的是摄像机，参考RTSCamera的例子，首先加入以下脚本。
+
+```c#
+using UnityEngine;
+using System.Collections;
+using HedgehogTeam.EasyTouch;
+
+public class TouchControllerForCamera : MonoBehaviour {
+
+    public Transform m_Transform;
+
+    private Vector3 delta;
+
+    void OnEnable(){
+        EasyTouch.On_Swipe += On_Swipe;
+        EasyTouch.On_Drag += On_Drag;
+        EasyTouch.On_Twist += On_Twist;
+        EasyTouch.On_Pinch += On_Pinch;
+    }
+
+    
+    void On_Twist (Gesture gesture){
+
+        m_Transform.Rotate( Vector3.up * gesture.twistAngle);
+    }
+
+    void OnDestroy(){
+        EasyTouch.On_Swipe -= On_Swipe;
+        EasyTouch.On_Drag -= On_Drag;
+        EasyTouch.On_Twist -= On_Twist;
+    }
+
+
+    void On_Drag (Gesture gesture){
+        On_Swipe( gesture);
+    }
+
+    void On_Swipe (Gesture gesture){
+
+        m_Transform.Translate( Vector3.left * gesture.deltaPosition.x / Screen.width);
+        m_Transform.Translate( Vector3.back * gesture.deltaPosition.y / Screen.height);
+    }
+
+    void On_Pinch (Gesture gesture){    
+        Camera.main.fieldOfView += gesture.deltaPinch * Time.deltaTime;
+    }
+
+}
+
+```
+
+
+
+（5）然后改变布局，并把新脚本挂到TouchController组件，不勾选旧脚本。
+
+ ![3](.\pic\3.png)
+
+
+
+注意，UI上有个Raycast Target的勾选要注意，会挡掉触摸事件。
 
 
 
