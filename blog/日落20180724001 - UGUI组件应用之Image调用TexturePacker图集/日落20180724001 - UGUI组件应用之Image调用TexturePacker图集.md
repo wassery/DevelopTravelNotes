@@ -102,6 +102,20 @@ public class ImageController : MonoBehaviour {
  ![这里写图片描述](./pic/image025.jpg)
 
 
+
+注意：TexturePacker的Trim mode设置，若选择Crop则会被剪裁部分，而选择None则不进行剪裁。 
+因此当图集用于序列帧动画时，应该选择None，不剪裁，否则将会出现不正确的缩放效果。
+Trim mode出现在Packing选择卡：
+ ![这里写图片描述](./pic/image026.jpg)
+
+或Sprites选项卡：
+ ![这里写图片描述](./pic/image027.jpg)
+
+不过Sprites选项卡要通过Advanced settings展开：
+ ![这里写图片描述](./pic/image028.jpg)
+
+
+
 以上简单回顾。
 
 参考资料：
