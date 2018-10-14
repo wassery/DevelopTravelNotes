@@ -241,6 +241,14 @@
 ------
 ## 【现在】：
 
+### 《日落20181015001 - Unity插件应用之tolua》
+
+> 《Unity 3D游戏客户端基础框架》tolua 框架接入https://blog.csdn.net/linshuhe1/article/details/77816480
+>
+> toLua简单使用https://blog.csdn.net/u012941657/article/details/51671854
+>
+> 单例模式（Singleton）的6种实现http://www.cnblogs.com/rush/archive/2011/10/30/2229565.html
+
 ------
 ## 【过去】：
 ### 《日落20180808001 - Unity调用SDK之Android截屏分享》
