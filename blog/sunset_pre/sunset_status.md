@@ -248,6 +248,11 @@
 > toLua简单使用https://blog.csdn.net/u012941657/article/details/51671854
 >
 > 单例模式（Singleton）的6种实现http://www.cnblogs.com/rush/archive/2011/10/30/2229565.html
+>
+> 用好Lua+Unity，让性能飞起来——Lua与C#交互篇
+> http://www.cnblogs.com/zwywilliam/p/5999924.html
+> http://www.cnblogs.com/zwywilliam/p/5999980.html
+>
 
 ------
 ## 【过去】：
