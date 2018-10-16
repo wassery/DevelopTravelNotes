@@ -253,6 +253,8 @@
 > http://www.cnblogs.com/zwywilliam/p/5999924.html
 > http://www.cnblogs.com/zwywilliam/p/5999980.html
 >
+> 安卓报错LuaException: cannot open tolua.lua: No such file or directory https://github.com/topameng/tolua/issues/75
+>
 
 ------
 ## 【过去】：
