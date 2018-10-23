@@ -54,4 +54,5 @@
 以上简单回顾。
 
 参考资料：
+https://docs.unity3d.com/2017.2/Documentation/Manual/class-Animator.html
 http://www.cnblogs.com/hejianchun/articles/3069432.html
