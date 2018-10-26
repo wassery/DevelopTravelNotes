@@ -188,6 +188,9 @@
 > Unity资源管理（四）-AssetBundle使用模式
 >
 > https://blog.csdn.net/qq_21397217/article/details/80586867
+>
+> ### 笔记：
+> 1.Asset中含有多个Object。这些Object共享同一个File GUID，因为它们的源数据存储于同一个Asset文件中，他们之间通过Local ID来区分。
 
 ## 6.Unity屏幕适配方案
 > ### 参考：
