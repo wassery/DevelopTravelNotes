@@ -190,8 +190,9 @@
 > https://blog.csdn.net/qq_21397217/article/details/80586867
 >
 > ### 笔记：
-> 1.Asset中含有多个Object。这些Object共享同一个File GUID，因为它们的源数据存储于同一个Asset文件中，他们之间通过Local ID来区分。
-> 2.AssetBundle的Object调用AssetBundle.Unload(false)，则会被卸载但不会从内存中移除，那么在移动平台上的应用被挂起并且强制退入后台之后，当应用返回前台时，Unity会在Scene恢复渲染前把全部所需的纹理、着色器和网格重新加载到GPU。
+> （1）Asset中含有多个Object。这些Object共享同一个File GUID，因为它们的源数据存储于同一个Asset文件中，他们之间通过Local ID来区分。
+>
+> （2）AssetBundle的Object调用AssetBundle.Unload(false)，则会被卸载但不会从内存中移除，那么在移动平台上的应用被挂起并且强制退入后台之后，当应用返回前台时，Unity会在Scene恢复渲染前把全部所需的纹理、着色器和网格重新加载到GPU。
 
 ## 6.Unity屏幕适配方案
 > ### 参考：
