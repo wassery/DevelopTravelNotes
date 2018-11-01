@@ -193,6 +193,8 @@
 > （1）Asset中含有多个Object。这些Object共享同一个File GUID，因为它们的源数据存储于同一个Asset文件中，他们之间通过Local ID来区分。
 >
 > （2）AssetBundle的Object调用AssetBundle.Unload(false)，则会被卸载但不会从内存中移除，那么在移动平台上的应用被挂起并且强制退入后台之后，当应用返回前台时，Unity会在Scene恢复渲染前把全部所需的纹理、着色器和网格重新加载到GPU。
+> 
+> （3）从存储设备读取预制体，哪怕是相同数据，也要重新进行读取文件，这种方法的加载操作受到存储设备I/O时间的限制，所以从内存中读取更优，我的理解是AssetBundle比Resources优。
 
 ## 6.Unity屏幕适配方案
 > ### 参考：
