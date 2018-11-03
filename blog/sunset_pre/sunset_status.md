@@ -204,6 +204,10 @@
 > （5-2）在Unity 5.3之前的版本中，AssetBundle中的Object不能被单独压缩。因此，在5.3之前版本的Unity中，如果要从已压缩的AssetBundle中读取Object，引擎必须解压整个AssetBundle。通常情况下，Unity会缓存一份解压后的AssetBundle副本，以此来提高加载性能。
 > 
 > （5-3）我的理解就是说LZ4比LZMA优。
+> 
+> （6）从Unity 2017.1开始，WWW.LoadFromCacheOrDownload被封装到了UnityWebRequest中。因此，在使用Unity 2017.1或者更高版本进行开发时，应该使用UnityWebRequest。WWW.LoadFromCacheOrDownload会在将来的发行版中被废弃。
+> 
+> （7）通常情况下，应该优先使用 AssetBundle.LoadFromFile，这一API在速度、磁盘使用和运行时内存占用方面都很高效。如果项目必须下载AssetBundle，强烈推荐在Unity 5.3以及更新的版本中使用 UnityWebRequest。
 
 ## 6.Unity屏幕适配方案
 > ### 参考：
