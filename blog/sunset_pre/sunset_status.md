@@ -171,51 +171,13 @@
 >
 > https://www.cnblogs.com/zhili/p/DesignPatternSummery.html
 
-## 5.Unity打包之资源管理
-> ### 参考：
-> Unity资源管理（一）-资源（Assets）、对象（Objects）和序列化
->
-> https://blog.csdn.net/qq_21397217/article/details/80500276
->
-> Unity资源管理（二）-Resources文件夹
->
-> https://blog.csdn.net/qq_21397217/article/details/80542155
->
-> Unity资源管理（三）-AssetBundle基本原理
->
-> https://blog.csdn.net/qq_21397217/article/details/80571819
->
-> Unity资源管理（四）-AssetBundle使用模式
->
-> https://blog.csdn.net/qq_21397217/article/details/80586867
->
-> ### 笔记：
-> （1）Asset中含有多个Object。这些Object共享同一个File GUID，因为它们的源数据存储于同一个Asset文件中，他们之间通过Local ID来区分。
->
-> （2）AssetBundle的Object调用AssetBundle.Unload(false)，则会被卸载但不会从内存中移除，那么在移动平台上的应用被挂起并且强制退入后台之后，当应用返回前台时，Unity会在Scene恢复渲染前把全部所需的纹理、着色器和网格重新加载到GPU。
-> 
-> （3-1）从存储设备读取预制体，哪怕是相同数据，也要重新进行读取文件，这种方法的加载操作受到存储设备I/O时间的限制，所以从内存中读取更优。
->
-> （3-2）我的理解是说AssetBundle比Resources优。
-> 
-> （4）在大多数平台上，用于查找的数据结构是平衡查找树，其时间复杂度为O(nlog(n))。因此，索引加载时间随Resources文件夹内Object数量而增长的速度高于线性增长。
-> （5-1）由序列化AssetBundle中的Asset而生成的原始数据，如果指定了压缩方案为LZMA，所有序列化的Asset会被压缩到一个字节数组中；如果指定了压缩方案为LZ4，不同Asset的字节数据会被单独压缩。
->
-> （5-2）在Unity 5.3之前的版本中，AssetBundle中的Object不能被单独压缩。因此，在5.3之前版本的Unity中，如果要从已压缩的AssetBundle中读取Object，引擎必须解压整个AssetBundle。通常情况下，Unity会缓存一份解压后的AssetBundle副本，以此来提高加载性能。
-> 
-> （5-3）我的理解就是说LZ4比LZMA优。
-> 
-> （6）从Unity 2017.1开始，WWW.LoadFromCacheOrDownload被封装到了UnityWebRequest中。因此，在使用Unity 2017.1或者更高版本进行开发时，应该使用UnityWebRequest。WWW.LoadFromCacheOrDownload会在将来的发行版中被废弃。
-> 
-> （7）通常情况下，应该优先使用 AssetBundle.LoadFromFile，这一API在速度、磁盘使用和运行时内存占用方面都很高效。如果项目必须下载AssetBundle，强烈推荐在Unity 5.3以及更新的版本中使用 UnityWebRequest。
-
-## 6.Unity屏幕适配方案
+## 5.Unity屏幕适配方案
 > ### 参考：
 > UGUI之RectTransform知识点
 >
 > http://www.manew.com/thread-41633-1-1.html
 
-## 7.图形学基础之向量
+## 6.图形学基础之向量
 > ### 参考：
 > 《3D数学基础：图形与游戏开发》第4章&第5章
 >
@@ -242,7 +204,7 @@
 >
 > （9）成夹角的两向量(a和b)，其一向量(a)的某个分量(a1)若能平行于另一向量(b)，则此分量(a1)是另一向量(b)的投影。
 
-## 8.Unity打包之Android热更与强更
+## 7.Unity打包之Android热更与强更
 > ### 参考：
 > Android热更新技术的研究与实现(一)
 >
@@ -261,7 +223,7 @@
 ------
 ## 【现在】：
 
-
+### 《日落20181108001 - Unity打包之资源管理》
 
 ------
 ## 【过去】：
