@@ -1,7 +1,10 @@
 系统：Windows 10
 引擎：Unity 2017.2.1f1
 
-代码：
+（1）场景布局如下：
+图片后补...
+
+（2）脚本代码：
 
 AssetBundlesEditor.cs
 
@@ -194,7 +197,12 @@ public class AssetBundlesManager : MonoBehaviour
 }
 ```
 
-注意：纹理ab文件如果不附加在材质球，加载之后，在Android中是没法显示该纹理。
+（3）真机效果：
+图片后补...
+
+
+
+注意：单独加载纹理ab文件，在Android中是没法显示该纹理，需要把纹理附加在材质球，并通过材质球的加载而加载。
 
 
 
