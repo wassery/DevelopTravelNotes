@@ -1,17 +1,5 @@
-参考：
-
-unity2017以上版本的Assetbundle打包
-https://blog.csdn.net/elineSea/article/details/79866758
-
-Unity3d 5.x AssetBundle打包与加载
-https://www.cnblogs.com/lan-yt/p/7787290.html
-
-Unity中如何使用AssetBundle打包
-http://gad.qq.com/article/detail/287854
-
-Unity官方文档-BuildPipeline.BuildPlayer
-https://docs.unity3d.com/ScriptReference/BuildPipeline.BuildPlayer.html
-
+系统：Windows 10
+引擎：Unity 2017.2.1f1
 
 代码：
 
@@ -207,3 +195,21 @@ public class AssetBundlesManager : MonoBehaviour
 ```
 
 注意：纹理ab文件如果不附加在材质球，加载之后，在Android中是没法显示该纹理。
+
+
+
+以下简单回顾。
+
+参考资料：
+
+unity2017以上版本的Assetbundle打包
+https://blog.csdn.net/elineSea/article/details/79866758
+
+Unity3d 5.x AssetBundle打包与加载
+https://www.cnblogs.com/lan-yt/p/7787290.html
+
+Unity中如何使用AssetBundle打包
+http://gad.qq.com/article/detail/287854
+
+Unity官方文档-BuildPipeline.BuildPlayer
+https://docs.unity3d.com/ScriptReference/BuildPipeline.BuildPlayer.html
