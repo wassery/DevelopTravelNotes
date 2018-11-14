@@ -2,7 +2,11 @@
 引擎：Unity 2017.2.1f1
 
 （1）场景布局如下：
-图片后补...
+运行前：
+ ![1](.\pic\1.png)
+
+运行后：
+ ![2](.\pic\2.png)
 
 （2）脚本代码：
 
@@ -198,7 +202,7 @@ public class AssetBundlesManager : MonoBehaviour
 ```
 
 （3）真机效果：
-图片后补...
+ ![3](.\pic\3.png)
 
 
 
