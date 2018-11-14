@@ -2,9 +2,9 @@
 引擎：Unity 2017.2.1f1
 工具：AssetBundles-Browser
 
-（1）以《Unity打包之AssetBundle简单实例》的工程为基础。
+（1）以[《Unity打包之AssetBundle简单实例》](https://blog.csdn.net/minami_takumi/article/details/84026765)的工程为基础。
 
-（2）下载工具，https://github.com/Unity-Technologies/AssetBundles-Browser
+（2）下载[AssetBundles-Browser](https://github.com/Unity-Technologies/AssetBundles-Browser)，该工具用于对AssetBundle的管理。
 
 （3）把目录塞进项目目录的Assets目录中，打开工程，将会在菜单项Window找到AssetBundle Browser。
  ![pic](.\pic\1.png)
