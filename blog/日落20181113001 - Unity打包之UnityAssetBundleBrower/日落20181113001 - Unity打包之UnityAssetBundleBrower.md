@@ -7,13 +7,13 @@
 （2）下载工具，https://github.com/Unity-Technologies/AssetBundles-Browser
 
 （3）把目录塞进项目目录的Assets目录中，打开工程，将会在菜单项Window找到AssetBundle Browser。
- ![pic](.\pic\1.bmp)
+ ![pic](.\pic\1.png)
 
 （4）点击上述菜单项，则打开该工具的窗口。左上是Bundle列表，左下是选中的Bundle详情；右上是Asset列表，右下是选中的Asset详情。
- ![pic](.\pic\2.bmp)
+ ![pic](.\pic\2.png)
 
 （5）选择Bundle列表的一项，可以在右上栏找到发现同样AssetBundle名的Asset。此时通过观察左下栏和右上栏，重复资源会增加Bundle的大小。可以在右下栏找到重复Asset的路径，从而过滤重复资源。
- ![pic](.\pic\3.bmp)
+ ![pic](.\pic\3.png)
 
 其他功能尚未使用到。
 
