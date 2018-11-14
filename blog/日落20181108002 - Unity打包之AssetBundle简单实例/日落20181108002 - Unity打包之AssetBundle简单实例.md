@@ -210,7 +210,7 @@ public class AssetBundlesManager : MonoBehaviour
 
 
 
-以下简单回顾。
+以上简单回顾。
 
 参考资料：
 
