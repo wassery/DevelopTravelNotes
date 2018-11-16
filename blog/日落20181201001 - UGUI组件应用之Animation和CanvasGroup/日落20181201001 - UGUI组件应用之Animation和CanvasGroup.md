@@ -1,5 +1,13 @@
-系统：Windows 10
-引擎：Unity 2017.2.1f1
+## 环境
+> 系统：Windows 10
+> 引擎：Unity 2017.2.1f1
+
+
+
+## 目的
+> 使用Animation和Canvas Group制作渐隐渐现的效果。
+
+
 
 （1）首先把场景布局如此
  ![pic](.\pic\1.png)
@@ -22,8 +30,14 @@
 （7）注意，标尺移动要在有时间值的一栏操作，才真正有效。
  ![pic](.\pic\7.png)
 
-（8）实测效果。
+（8）若发现警告：Asset 'ac': Transition 'AnyState -> anim' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
  ![pic](.\pic\8.png)
+
+（9）可以通过勾选Has Exit Time来解决。
+ ![pic](.\pic\9.png)
+
+（10）实测效果。
+ ![pic](.\pic\10.png)
 
 
 
