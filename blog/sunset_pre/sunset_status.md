@@ -222,32 +222,8 @@
 
 ------
 ## 【现在】：
-
 ### 
 
 ------
 ## 【过去】：
-### 《日落20180808001 - Unity调用SDK之Android截屏分享》
-> 缺：Application.CaptureScreenshot理解
->
-
-### 《日落20180807001 - Unity调用SDK之Android唤起其他App》
-> 缺：Intent理解，PackageManager 和 PackageInfo 
->
-> {
->
-> Android总结篇——Intent机制详解及示例总结
->
-> https://www.cnblogs.com/X-knight/p/5438042.html
->
-> Intent详解
->
-> https://www.cnblogs.com/engine1984/p/4146621.html
->
-> }
-
-### 《日落20180724001 - UGUI组件应用之Image调用TexturePacker图集》
-> 缺：
-> TexturePacker的Sprites选项卡的Trim mode设置，若选择Crop则会被剪裁部分，而选择None则不进行剪裁。 
-> 因此当图集用于序列帧动画时，应该选择None，不剪裁，否则将会出现不正确的缩放效果。
-
+### 
