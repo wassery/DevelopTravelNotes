@@ -3,7 +3,12 @@
 
 Android环境与工程配置：参照[《Unity原生插件的应用之Unity与Android的互动》](https://blog.csdn.net/minami_takumi/article/details/81055390)
 
-以下例子用唤起手机QQ为例。
+（1）Android的Intent组件有三种使用方式：
+<1>使用startActivity接口，启动另一个Activity。
+<2>使用startService接口，启动一个服务。
+<3>使用sendBroadcasts接口，启动一个广播。
+
+（2）本例使用startActivity方式唤起手机QQ为例。
 
 MainActivity.java具体代码：
 
@@ -97,7 +102,7 @@ public class AndroidCommunicator : MonoBehaviour
 
 参考资料：
 https://www.jianshu.com/p/42ae7066f8f3
-
-
+https://www.cnblogs.com/engine1984/p/4146621.html
+https://www.cnblogs.com/X-knight/p/5438042.html
 
 
