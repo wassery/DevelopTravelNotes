@@ -4,9 +4,11 @@
 Android环境与工程配置：参照[《Unity原生插件的应用之Unity与Android的互动》](https://blog.csdn.net/minami_takumi/article/details/81055390)
 
 （1）Android的Intent组件有三种使用方式：
-<1>使用startActivity接口，启动另一个Activity。
-<2>使用startService接口，启动一个服务。
-<3>使用sendBroadcasts接口，启动一个广播。
+| 方式                   | 作用               |
+| ---------------------- | ------------------ |
+| 使用startActivity接口  | 启动另一个Activity |
+| 使用startService接口   | 启动一个服务       |
+| 使用sendBroadcasts接口 | 启动一个广播       |
 
 （2）本例使用startActivity方式唤起手机QQ为例。
 
@@ -101,8 +103,12 @@ public class AndroidCommunicator : MonoBehaviour
 以上简单回顾。
 
 参考资料：
+
+Android通过App启动另一个APP
 https://www.jianshu.com/p/42ae7066f8f3
+
+Intent详解
 https://www.cnblogs.com/engine1984/p/4146621.html
+
+Android总结篇——Intent机制详解及示例总结
 https://www.cnblogs.com/X-knight/p/5438042.html
-
-
