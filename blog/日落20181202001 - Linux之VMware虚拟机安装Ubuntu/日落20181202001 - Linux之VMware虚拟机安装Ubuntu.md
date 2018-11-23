@@ -4,7 +4,7 @@
 > https://my.vmware.com/zh/web/vmware/downloads
 > Linux：Ubuntu 16.04.5 LTS (Xenial Xerus)
 > http://tw.archive.ubuntu.com/ubuntu-cd/xenial/ubuntu-16.04.5-server-amd64.iso
-> SSH客户端：SecureCRT
+> SSH客户端：SecureCRT 6.5.0 (build 380)
 > https://www.vandyke.com/cgi-bin/releases.php?product=securecrt
 
 ## 目的
