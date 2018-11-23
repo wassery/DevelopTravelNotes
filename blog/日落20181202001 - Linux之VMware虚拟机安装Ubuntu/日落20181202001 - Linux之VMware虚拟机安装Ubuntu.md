@@ -1,10 +1,14 @@
 ## 环境
 > 系统：Windows 10
-> 工具1：Ubuntu 16.04.5 LTS (Xenial Xerus)
+> 虚拟机：VMware-workstation-full-10.0.2-1744117.1415342309
+> https://my.vmware.com/zh/web/vmware/downloads
+> Linux：Ubuntu 16.04.5 LTS (Xenial Xerus)
 > http://tw.archive.ubuntu.com/ubuntu-cd/xenial/ubuntu-16.04.5-server-amd64.iso
+> SSH客户端：SecureCRT
+> https://www.vandyke.com/cgi-bin/releases.php?product=securecrt
 
 ## 目的
-> 在虚拟机上安装Linux系统，然后通过ssh进行“远程”操作。
+> 在虚拟机上安装Linux系统，然后通过SSH进行“远程”操作。
 
 
 
@@ -75,17 +79,44 @@
 （10）
  ![pic](.\pic\210.png)
 
-（11）
- ![pic](.\pic\211.png)
-
-（12）
- ![pic](.\pic\212.png)
-
 
 
 ### 三、通过ssh进行“远程”操作
-（）
- ![pic](.\pic\.png)
+（1）
+ ![pic](.\pic\301.png)
+
+（2）
+ ![pic](.\pic\302.png)
+
+（3）
+ ![pic](.\pic\303.png)
+
+（4）
+ ![pic](.\pic\304.png)
+
+（5）
+ ![pic](.\pic\305.png)
+
+（6）
+ ![pic](.\pic\306.png)
+
+（7）
+ ![pic](.\pic\307.png)
+
+（8）
+ ![pic](.\pic\308.png)
+
+（9）
+ ![pic](.\pic\309.png)
+
+（10）
+ ![pic](.\pic\310.png)
+
+（11）
+ ![pic](.\pic\311.png)
+
+（12）
+ ![pic](.\pic\312.png)
 
 
 
