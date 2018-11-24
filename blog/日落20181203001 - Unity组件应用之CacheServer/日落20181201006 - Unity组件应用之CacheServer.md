@@ -18,3 +18,9 @@ https://github.com/Unity-Technologies/unity-cache-server
 以上简单回顾。
 
 参考资料：
+
+NodeJS、NPM安装配置步骤(windows版本)
+https://jingyan.baidu.com/article/48b37f8dd141b41a646488bc.html
+
+Unity Cache Server的使用
+https://blog.csdn.net/lingyanpi/article/details/71667416
