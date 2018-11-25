@@ -37,7 +37,7 @@
  ![pic](.\pic\9.png)
 
 （10）实测效果。
- ![pic](.\pic\10.png)
+ ![pic](.\pic\10.gif)
 
 
 

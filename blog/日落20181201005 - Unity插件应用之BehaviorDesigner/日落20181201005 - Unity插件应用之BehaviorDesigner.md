@@ -102,7 +102,7 @@ namespace BehaviorDesigner.Runtime.Tasks
  ![pic](.\pic\11-6.png)
 
 （12）实测效果。
- ![pic](.\pic\12.png)
+ ![pic](.\pic\12.gif)
 
 
 

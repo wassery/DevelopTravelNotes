@@ -43,7 +43,7 @@
  ![pic](.\pic\12.png)
 
 （13）实测效果。
- ![pic](.\pic\13.png)
+ ![pic](.\pic\13.gif)
 
 
 
