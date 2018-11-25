@@ -6,21 +6,60 @@
 ## 目的
 > 使用Cache Server制作一个简单实例。
 
+## Windows
 （1）Unity Cache Server下载地址
 https://github.com/Unity-Technologies/unity-cache-server
- ![pic](.\pic\1.png)
+ ![pic](.\pic\101.png)
+
+（2）
+ ![pic](.\pic\102.png)
+
+（3）
+ ![pic](.\pic\103.png)
+
+（4）
+ ![pic](.\pic\104.png)
+
+（5）
+ ![pic](.\pic\105.png)
+
+（6）
+ ![pic](.\pic\106.png)
+
+（7）
+ ![pic](.\pic\107.png)
+
+（8）
+ ![pic](.\pic\108.png)
+
+（9）
+ ![pic](.\pic\109.png)
+
+（10）
+ ![pic](.\pic\110.png)
+
+## Linux
+（1）
+ ![pic](.\pic\201.png)
  
-（）实测效果。
- ![pic](.\pic\.png)
-
-
+（2）
+ ![pic](.\pic\202.png)
+ 
+（3）
+ ![pic](.\pic\203.png)
+ 
+（4）
+ ![pic](.\pic\204.png)
 
 以上简单回顾。
 
-参考资料：
+## 参考资料
 
 NodeJS、NPM安装配置步骤(windows版本)
 https://jingyan.baidu.com/article/48b37f8dd141b41a646488bc.html
+
+Linux安装nodejs和npm
+https://blog.csdn.net/gaomengwang/article/details/77540429
 
 Unity Cache Server的使用
 https://blog.csdn.net/lingyanpi/article/details/71667416
