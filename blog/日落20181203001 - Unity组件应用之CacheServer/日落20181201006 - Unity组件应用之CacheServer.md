@@ -40,9 +40,15 @@ https://github.com/Unity-Technologies/unity-cache-server
 
 ## Linux
 
+（1）
+ ![pic](.\pic\201.png)
+ 
+（2）
+ ![pic](.\pic\202.png)
+
 以上简单回顾。
 
 ## 参考资料
 
-Unity Cache Server的使用
-https://blog.csdn.net/lingyanpi/article/details/71667416
+Unity Cache Server README.md
+https://github.com/Unity-Technologies/unity-cache-server
