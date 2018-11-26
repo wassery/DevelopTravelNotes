@@ -1,5 +1,5 @@
 ## 环境
-> 系统：Windows 10
+> 系统：Windows 10 & Ubuntu 16.04.5 LTS
 > 引擎：Unity 2017.2.1f1
 > 工具：Cache Server v6.1
 
