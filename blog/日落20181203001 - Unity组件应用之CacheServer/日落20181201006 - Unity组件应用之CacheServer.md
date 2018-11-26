@@ -6,6 +6,7 @@
 ## 目的
 > 使用Cache Server制作一个简单实例。
 
+## Windows
 （1）Unity Cache Server下载地址
 https://github.com/Unity-Technologies/unity-cache-server
  ![pic](.\pic\101.png)
@@ -36,6 +37,8 @@ https://github.com/Unity-Technologies/unity-cache-server
 
 （10）
  ![pic](.\pic\110.png)
+
+## Linux
 
 以上简单回顾。
 
