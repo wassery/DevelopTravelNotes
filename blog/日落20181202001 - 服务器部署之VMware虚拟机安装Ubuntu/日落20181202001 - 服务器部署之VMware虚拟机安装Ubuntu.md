@@ -55,7 +55,7 @@
 （2）创建新的虚拟机，选择典型。
  ![pic](.\pic\202.png)
 
-（3）选择需要安装的系统安装文件。
+（3）选择需要安装的系统安装文件。下载Ubuntu系统可以在这个地址选择：http://tw.archive.ubuntu.com/ubuntu-cd/
  ![pic](.\pic\203.png)
 
 （4）输入Linux名称、用户名、密码和确认密码。
@@ -82,40 +82,40 @@
 
 
 ### 三、通过ssh进行“远程”操作
-（1）
+（1）安装ssh服务器，使用命令：sudo apt-get install openssh-server
  ![pic](.\pic\301.png)
 
-（2）
+（2）安装ssh服务器完毕。
  ![pic](.\pic\302.png)
 
-（3）
+（3）检查ssh服务器是否启动，使用命令：ps  -e|grep ssh
  ![pic](.\pic\303.png)
 
-（4）
+（4）由于我用的是SecureCRT绿色版，直接打开，第一次运行需要指定SecureCRT的配置数据的目录。
  ![pic](.\pic\304.png)
 
-（5）
+（5）按Yes，设置SecureCRT为系统默认的Telnet程序。
  ![pic](.\pic\305.png)
 
-（6）
+（6）先在VMware虚拟机那边使用命令：ifconfig，查看ip（信息的inet addr项）。把ip输入到SecureCRT的“快速连接”设置窗口的主机名。端口默认22，不用改。用户名是wass，选择下方的密码选项，再点击属性按钮，输入密码。确定后，点击“快速连接”窗口的“连接”按钮。
  ![pic](.\pic\306.png)
 
-（7）
+（7）然后会有“新建主机密钥”的提示，选择“接受并保存”。
  ![pic](.\pic\307.png)
 
-（8）
+（8）下面界面点击“确定”按钮。
  ![pic](.\pic\308.png)
 
-（9）
+（9）此时SecureCRT已经可以远程控制Ubuntu。
  ![pic](.\pic\309.png)
 
-（10）
+（10）选择菜单“选项”，再选择“会话选项”。
  ![pic](.\pic\310.png)
 
-（11）
+（11）选择“外观”，改变颜色方案为“白/黑”，点击确定。
  ![pic](.\pic\311.png)
 
-（12）
+（12）噢~色调不错！
  ![pic](.\pic\312.png)
 
 
