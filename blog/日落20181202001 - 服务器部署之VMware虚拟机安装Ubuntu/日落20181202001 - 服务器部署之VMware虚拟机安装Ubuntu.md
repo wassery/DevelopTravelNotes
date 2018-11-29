@@ -126,3 +126,6 @@ https://blog.csdn.net/qq_37546891/article/details/80482031
 
 ubuntu开启SSH服务
 http://www.cnblogs.com/xiazh/archive/2010/08/13/1798844.html
+
+VMware Workstation 显示内部错误
+https://jingyan.baidu.com/article/72ee561ab9d72be16138df87.html
