@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=qCkdVX1RhJ4
 
 Shader Forge Tutorials
 https://www.youtube.com/playlist?list=PLHkZsIwT_SixXK95l0IHaCTwaRKqzGYiC
+
+ShaderForge-旗帜飘动
+https://blog.csdn.net/wwlcsdn000/article/details/78866806
