@@ -218,7 +218,29 @@
 >
 > http://www.cnblogs.com/zhengxt/p/3657833.html?utm_source=tuicool&utm_medium=referral
 
-
+## 8.ShaderForge
+> ### 参考：
+> ShaderForge官网
+> http://acegikmo.com/shaderforge/nodes/?lang=zh_cn
+>
+> Shader Forge - Gradients (Part 3, Color Ramps & Dissolve)
+> https://www.youtube.com/watch?v=qCkdVX1RhJ4
+>
+> Shader Forge Tutorials
+> https://www.youtube.com/playlist?list=PLHkZsIwT_SixXK95l0IHaCTwaRKqzGYiC
+>
+> ShaderForge-旗帜飘动
+> https://blog.csdn.net/wwlcsdn000/article/details/78866806
+>
+> ShaderForge-波光铠甲
+> https://blog.csdn.net/wwlcsdn000/article/details/78858416
+>
+> ShaderForge-水面折射
+> https://blog.csdn.net/wwlcsdn000/article/details/78874268
+>
+> ShaderForge 入门火焰流动效果
+> https://blog.csdn.net/u014028063/article/details/82689269
+>
 
 ------
 ## 【现在】：
