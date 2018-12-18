@@ -24,6 +24,22 @@
 （5-2）选择Lerp，出现Lerp节点。
  ![pic](.\pic\5-2.png)
 
+（5-3）Lerp的计算：
+按照本例设置，
+插值系数：横向坐标U（或者纵向坐标V），设值为t；
+起点颜色：ColorA，设值为(r0, g0, b0, a0)；
+终点颜色：ColorB，设值为(r1, g1, b1, a1)；
+过渡颜色：Color，设值为(r, g, b, a)；
+由于数值为一元数，二维坐标为二元数xy，颜色为四元数rgba。
+而本例用到的是颜色。
+根据线性插值原理，
+则有t = (r - r0) / (r1 - r0) = (g - g0) / (g1 - g0) = (b - b0) / (b1 - b0) = (a - a0) / (a1 - a0)
+即：
+r = t * (r1 - r0) + r0
+g = t * (g1 - g0) + g0
+b = t * (b1 - b0) + b0
+a = t * (a1 - a0) + a0
+
 （6-1）按C键，出现C开头的选项集合。
  ![pic](.\pic\6-1.png)
 
@@ -96,3 +112,6 @@ https://www.youtube.com/watch?v=kMHxQukEFoE
 
 ShaderForge官网
 http://acegikmo.com/shaderforge/nodes/?lang=zh_cn
+
+线性插值
+https://en.wikipedia.org/wiki/Linear_interpolation
