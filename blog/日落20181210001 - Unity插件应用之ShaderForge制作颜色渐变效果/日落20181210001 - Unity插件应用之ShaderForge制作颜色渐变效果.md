@@ -31,14 +31,20 @@
 终点颜色：ColorB，设值为(r1, g1, b1, a1)；
 过渡颜色：Color，设值为(r, g, b, a)；
 由于数值为一元数，二维坐标为二元数xy，颜色为四元数rgba。
-而本例用到的是颜色。
+而本例虽然用到的是颜色，但回看代码：
+```
+uniform float4 _ColorA;
+uniform float4 _ColorB;
+// 其中代码略......
+float3 emissive = lerp(_ColorA.rgb,_ColorB.rgb,i.uv0.r);
+```
+虽然ColorA和ColorB均设为四元数，只是用到三元数rgb。
 根据线性插值原理，
-则有t = (r - r0) / (r1 - r0) = (g - g0) / (g1 - g0) = (b - b0) / (b1 - b0) = (a - a0) / (a1 - a0)
+则有t = (r - r0) / (r1 - r0) = (g - g0) / (g1 - g0) = (b - b0) / (b1 - b0)
 即：
 r = t * (r1 - r0) + r0
 g = t * (g1 - g0) + g0
 b = t * (b1 - b0) + b0
-a = t * (a1 - a0) + a0
 
 （6-1）按C键，出现C开头的选项集合。
  ![pic](.\pic\6-1.png)
