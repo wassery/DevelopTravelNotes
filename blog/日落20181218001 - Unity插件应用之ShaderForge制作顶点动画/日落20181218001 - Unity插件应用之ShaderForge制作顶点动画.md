@@ -33,7 +33,10 @@
 （2）Shader Forge编辑如下。（编辑方式看《[Unity插件应用之ShaderForge制作颜色渐变效果](https://blog.csdn.net/minami_takumi/article/details/85054896)》）
  ![pic](.\pic\2.png)
 
-（3）其shader代码如下。
+（3）
+ ![pic](.\pic\3.png)
+
+（4）其shader代码如下。
 ```
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
@@ -65,7 +68,7 @@ Shader "Shader Forge/StreamerShader" {
             #define UNITY_PASS_FORWARDBASE
             #include "UnityCG.cginc"
             #pragma multi_compile_fwdbase
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
             #pragma target 3.0
             uniform float4 _ColorA;
             uniform float4 _ColorB;
@@ -118,7 +121,7 @@ Shader "Shader Forge/StreamerShader" {
             #include "Lighting.cginc"
             #pragma fragmentoption ARB_precision_hint_fastest
             #pragma multi_compile_shadowcaster
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles gles3 
             #pragma target 3.0
             struct VertexInput {
                 float4 vertex : POSITION;
@@ -155,8 +158,8 @@ Shader "Shader Forge/StreamerShader" {
 
 ```
 
-（4）实测效果。
- ![pic](.\pic\4.gif)
+（5）实测效果。
+ ![pic](.\pic\5.gif)
 
 以上简单回顾。
 
