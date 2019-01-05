@@ -244,3 +244,6 @@ ShaderForge官网
 http://acegikmo.com/shaderforge/nodes/?lang=zh_cn
 
 《Unity Shader入门精要》第6.4节和第11.3节
+
+ShaderForge-旗帜飘动
+https://blog.csdn.net/wwlcsdn000/article/details/78866806
