@@ -165,7 +165,7 @@
 >
 > https://www.cnblogs.com/coderJiebao/p/CSharp09.html
 >
-> 浅拷贝和深拷贝
+> 浅拷贝和深拷贝（浅拷贝就像引用类型，而深拷贝就像值类型）
 >
 > http://www.cnblogs.com/haiyang1985/archive/2009/01/13/1375017.html
 
