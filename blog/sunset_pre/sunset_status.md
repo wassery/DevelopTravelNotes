@@ -164,6 +164,10 @@
 > C# 反射，通过类名、方法名调用方法
 >
 > https://www.cnblogs.com/coderJiebao/p/CSharp09.html
+>
+> 浅拷贝和深拷贝
+>
+> http://www.cnblogs.com/haiyang1985/archive/2009/01/13/1375017.html
 
 ## 4.C#设计模式
 > ### 参考：
