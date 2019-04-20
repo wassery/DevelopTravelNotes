@@ -10,7 +10,7 @@
 
 
 
-### 一、安装Sublime Text 3
+### 一、安装Sublime Text 
 （1）下载软件，portable version，即绿色版
  ![pic](.\pic\101.png)
 
@@ -30,12 +30,13 @@
 
 
 ### 三、Lua编译配置的两种方式
-#### 1、 在Sublim Text 3新增Lua编译配置
-（1）打开Sublime Text 3，选择菜单Tools >> Build System >> New Build System...
+#### 1、 在Sublim Text新增Lua编译配置
+（1）打开Sublime Text，选择菜单Tools >> Build System >> New Build System...
 
 （2）把以下内容复制刚打开的Sublime Text文本中，
-其中的D:/software/lua-5.3.5_Win32_bin/lua53.exe，是刚才Lua所选的目录，
+其中的D:/software/lua-5.3.5_Win32_bin/lua53.exe，是刚才下载的Lua编译器文件，
 然后保存到默认目录，命名为lua.sublime-build
+
 ```
 {
     "cmd": ["D:/software/lua-5.3.5_Win32_bin/lua53.exe", "$file"],  
@@ -52,7 +53,7 @@
 
 （2）把自定义的Lua编译器目录（D:/software/lua-5.3.5_Win32_bin/）里exe文件进行重命名（去掉53）：
 ```
-lua53.exe	->	lua.exe
+lua53.exe	->	lua.exe（注意：此处的修改会影响上一种方式的配置文件）
 luac53.exe	->	luac.exe
 wlua53.exe	->	wlua.exe
 ```
@@ -73,6 +74,8 @@ print('1')
 ```
 
 
+
+以上简单回顾。
 
 ## 参考资料
 Sublime Text3配置Lua运行环境
