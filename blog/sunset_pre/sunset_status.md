@@ -169,7 +169,7 @@
 >
 > http://www.cnblogs.com/haiyang1985/archive/2009/01/13/1375017.html
 >
-> CLR via C# 泛型
+> ### 《CLR via C#》 笔记：
 >
 > 泛型类通过继承的方式，可实现同一链表中具有不同类型的元素。
 >
