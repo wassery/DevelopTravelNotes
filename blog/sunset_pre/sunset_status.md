@@ -2,7 +2,7 @@
 
 ------
 
-## 【未来】：
+## 【备选】：
 
 ## 1.Unity性能分析
 > ### 参考：
@@ -141,10 +141,6 @@
 >
 > https://zm8.sm-tc.cn/?src=l4uLj4zF0NCIiIjRnJGdk5CYjNGckJLQ0pueiJHQno2cl5aJmtDNz87N0M%2FG0M3G0M3Iz8fPyszRl4uSkw%3D%3D&uid=6b05d9dfca7f9a6d49c5a17a8195b0db&hid=c9a7f41523323cbea327076d44ad9885&pos=2&cid=9&time=1531790463322&from=click&restype=1&pagetype=0000000000000000&bu=web&query=c%23%E4%B8%AD%E6%8B%AC%E5%8F%B7&mode=&v=1&force=true&wap=false&province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&uc_param_str=dnntnwvepffrgibijbprsvdsdichei
 >
-> C#关键字之override详解
->
-> https://blog.csdn.net/yiyelanxin/article/details/71711383
->
 > C# 基础系列--类一(partial 部分类和部分方法)
 >
 > https://www.cnblogs.com/qionghua/archive/2012/07/16/2594200.html
@@ -175,13 +171,7 @@
 >
 > https://www.cnblogs.com/zhili/p/DesignPatternSummery.html
 
-## 5.Unity屏幕适配方案
-> ### 参考：
-> UGUI之RectTransform知识点
->
-> http://www.manew.com/thread-41633-1-1.html
-
-## 6.Unity打包之Android热更与强更
+## 5.Unity打包之Android热更与强更
 > ### 参考：
 > Android热更新技术的研究与实现(一)
 >
@@ -194,11 +184,4 @@
 > 使用Android系统提供的DownloadManager来下载文件
 >
 > http://www.cnblogs.com/zhengxt/p/3657833.html?utm_source=tuicool&utm_medium=referral
-
-------
-## 【现在】：
-### 
-
-------
-## 【过去】：
-### 
+> 
