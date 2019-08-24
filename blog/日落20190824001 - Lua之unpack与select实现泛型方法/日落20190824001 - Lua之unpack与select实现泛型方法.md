@@ -10,7 +10,7 @@
 
 ```
 function aaa()
-	local a = {"hello","ll"}
+	local a = {"hello kitty","tt"}
 	print(string.find(unpack(a)))
 end
 
