@@ -86,7 +86,7 @@
 （4-1）添加一个用于UI的相机（Camera_UI）
  ![pic](./pic/401.png)
 
-（4-2）调整Canvas的Render Mode和Render Camera的参数值，可以显示出正确的层级。
+（4-2）调整Canvas的Render Mode（设为屏幕空间的相机Screen Space - Camera）和Render Camera（设为新加的相机Camera_UI）的参数值，可以显示出正确的层级。
  ![pic](./pic/402.png)
 
 （4-3）再调整一下Canvas的其他参数：
