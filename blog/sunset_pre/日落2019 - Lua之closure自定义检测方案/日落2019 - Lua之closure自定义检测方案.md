@@ -18,8 +18,8 @@ print('------------before------------')
 testFunc()
 
 --[[
-此处使用语法糖 local function checkFunc(param)，
-相当于先定义checkFunc这个变量，再赋值。
+	此处使用语法糖 local function checkFunc(param)，
+	相当于先定义checkFunc这个变量，再赋值。
 ]]
 local function checkFunc(param)
 	-- 此处为检测方案
@@ -29,10 +29,16 @@ end
 
 local oldFunc = testFunc
 testFunc = function()
+	--[[
+		以下的返回语句是用了“尾调用消除”机制，
+		此时调用的函数(oldFunc)不会在结束后，再回到此函数(testFunc)，
+		相当于此函数结束后再调用另一函数。
+		就是说，不会在调用新函数时，进行压栈操作，不会导致栈溢出。
+	]]
 	if checkFunc() then
-		oldFunc()
+		return oldFunc()
 	else
-		print('access failed')
+		return print('access failed')
 	end
 end
 
@@ -68,4 +74,4 @@ access failed
 
 ## 参考资料：
 
-《Lua程序设计（第二版）》第6.1节与第6.2节
+《Lua程序设计（第二版）》第6章
